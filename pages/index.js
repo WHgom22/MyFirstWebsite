@@ -10,16 +10,16 @@ function HomePage() {
       }}
     >
       <h1 style={{ fontFamily: 'fantasy', color: '#4b9be1' }}>
-        Topcoder's website
+        Topcoder's first website
       </h1>
       <h2
         style={{
           fontFamily: 'cursive',
-          color: 'rgb(243, 103, 123)',
+          color: 'rgb(0, 300, 0)',
           marginBottom: '10rem'
         }}
       >
-        click the buttons below
+        please click the buttons below
       </h2>
       <button
         style={{
@@ -29,7 +29,7 @@ function HomePage() {
           background: 'blue',
           color: 'white'
         }}
-        onClick={() => alert('Hello there')}
+        onClick={() => alert('Hello! Welcome to my website!')}
       >
         Welcome
       </button>
@@ -45,9 +45,9 @@ function HomePage() {
         onClick={() => {
           let name = prompt("What's your name?");
           if (name) {
-            alert('Nice to meet you, ' + name + '!');
+            alert('Good to see you, ' + name + '!');
           } else {
-            alert('Nice to meet you, stranger');
+            alert('Hello, anonymous');
           }
         }}
       >
